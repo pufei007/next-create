@@ -75,7 +75,7 @@ module.exports = {
         }
         // 添加别名引用
         config.resolve.alias["@"] = path.join(__dirname, "");
-        config.resolve.extensions =["jsx", "js"];
+        // config.resolve.extensions =["jsx", "js"];
         // 添加文件hash
         config.module.rules.push({
           test: /\.(txt|jpg|png|gif|svg)$/,
