@@ -10,8 +10,8 @@
     "build:pro": "next build && next start",
     "server": "cross-env NODE_ENV=production TEST=true PORT=3000 node server",
     "server:pro": "cross-env NODE_ENV=production PORT=3000 node server",
-    "deploy": "pm2 deploy ecosystem.config.js development",
-    "deploy:pro": "pm2 deploy ecosystem.config.js production"
+    "deploy": "pm2 deploy  development update",
+    "deploy:pro": "pm2 deploy  production update"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
