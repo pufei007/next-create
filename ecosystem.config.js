@@ -2,7 +2,8 @@ module.exports = {
   apps: [
     {
       name: "next-create",
-      script: "./server.js",
+      script: "server.js",
+
       // cwd: "./source", // current workspace
       // watch: [
       //   // watch directorys and restart when they change
