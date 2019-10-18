@@ -55,8 +55,8 @@ module.exports = {
       user: "root",
       host: "148.70.131.200",
       ref: "origin/master",
-      repo: "https://github.com/pufei007/next-scaffold.git",
-      path: "/var/www/node-server/next-scaffold-dev",
+      repo: "https://github.com/pufei007/next-create.git",
+      path: "/var/www/node-server/next-create-dev",
       "post-deploy":
         "yarn install && yarn build && pm2 reload ecosystem.config.js --env development",
       env: {
