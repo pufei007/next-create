@@ -22,13 +22,13 @@ module.exports = {
       env: {
         NODE_ENV: "development",
         HOST: "0.0.0.0",
-        PORT: 5000
+        PORT: 3600
       },
       // 正式服
       env_production: {
         NODE_ENV: "production",
         HOST: "0.0.0.0",
-        PORT: 6000
+        PORT: 3500
         // 静态cdn地址
         // PUBLIC_URL: '//static.yay.com.cn/yuema'
       },
