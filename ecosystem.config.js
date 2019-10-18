@@ -46,7 +46,7 @@ module.exports = {
       path: "/var/www/node-server/next-create-pro", // 目标服务器部署地址
       // "post-setup": "mkdir build",
       "post-deploy":
-        "yarn install && yarn build:pro && pm2 reload ecosystem.config.js --env production",
+        "npm install && npm run build:pro && pm2 reload ecosystem.config.js --env production",
       env: {
         NODE_ENV: "production"
       }
