@@ -4,11 +4,11 @@ module.exports = {
       name: "next-create",
       script: "server.js",
 
-      // cwd: "./source", // current workspace
-      // watch: [
-      //   // watch directorys and restart when they change
-      //   ".next"
-      // ],
+      cwd: "./", // current workspace
+      watch: [
+        // watch directorys and restart when they change
+        ".next"
+      ],
       // ignore_watch: [
       //   // ignore watch
       //   "node_modules",
