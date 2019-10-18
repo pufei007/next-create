@@ -1,20 +1,20 @@
 module.exports = {
   apps: [
     {
-      name: "next-create",
-      script: "server.js",
+      name: "next-create-haha",
+      script: "./server.js",
 
       cwd: "./", // current workspace
       watch: [
         // watch directorys and restart when they change
         ".next"
       ],
-      // ignore_watch: [
-      //   // ignore watch
-      //   "node_modules",
-      //   "logs",
-      //   "static"
-      // ],
+      ignore_watch: [
+        // ignore watch
+        "node_modules",
+        "logs",
+        "static"
+      ],
 
       instances: 2, // start 2 instances
       node_args: "--harmony",
@@ -44,7 +44,7 @@ module.exports = {
       host: "148.70.131.200", // 目标服务器地址
       ref: "origin/master",
       repo: "https://github.com/pufei007/next-create.git",
-      path: "/var/www/node-server/next-create-pro-pm2", // 目标服务器部署地址
+      path: "/var/www/node-server/next-create-pro-pm2-haha", // 目标服务器部署地址
       // "post-setup": "mkdir build",
       "post-deploy":
         "npm install && npm run build:pro && pm2 reload ecosystem.config.js --env production",
